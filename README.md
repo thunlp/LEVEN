@@ -19,7 +19,7 @@ LEVEN contains 108 event types in total, including 64 charge-oriented events and
 
 ![tab2](./pic/tab2.jpg)
 
-The LEVEN event schema has a sophisticated hierarchical structure, which is shown [here](#Event Schema).  
+The LEVEN event schema has a sophisticated hierarchical structure, which is shown [here](#Schema).  
 
 ## Leader Board
 
@@ -51,7 +51,7 @@ The experiment results for Similar Case Retrieval are shown below.
 
 ![tab5](./pic/tab5.jpg)
 
-## Event Schema
+## Schema
 
 The Chinese event schema is shown below. Please check our paper for the English version.
 

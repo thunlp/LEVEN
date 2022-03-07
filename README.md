@@ -3,7 +3,7 @@ Dataset and source code for ACL 2022 Findings paper "LEVEN: A Large-Scale Chines
 
 ## Overview
 
-The dataset can be obtained from [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/6e911ff1286d47db8016/) or [Google Drive](https://drive.google.com/drive/folders/1VGD0h365kegTqGEyLr24SJtJUUoZIt20?usp=sharing). 
+The dataset can be obtained from [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/6e911ff1286d47db8016/) or [Google Drive](https://drive.google.com/drive/folders/1VGD0h365kegTqGEyLr24SJtJUUoZIt20?usp=sharing). The annotation guidelines are provided in [Annotation Guidelines](./Annotation-Guidelines).
 
 ### Large Scale
 
@@ -54,6 +54,8 @@ The experiment results for Similar Case Retrieval are shown below.
 ## Schema
 
 The Chinese event schema is shown below. Please check our paper for the English version.
+
+The detailed explanation and annotation guidelines are provided in [Annotation Guidelines](./Annotation-Guidelines).
 
 ![schema](./pic/schema-zh.png)
 

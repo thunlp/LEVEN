@@ -1,5 +1,5 @@
 # LEVEN
-Dataset and source code for ACL 2022 Findings paper "LEVEN: A Large-Scale Chinese Legal Event Detection Dataset" .
+Dataset and source code for ACL 2022 Findings paper ["LEVEN: A Large-Scale Chinese Legal Event Detection Dataset" ](https://arxiv.org/pdf/2203.08556.pdf).
 
 ## Overview
 

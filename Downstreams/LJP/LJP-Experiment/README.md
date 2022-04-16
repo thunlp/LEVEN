@@ -19,3 +19,7 @@ This code is for LEVEN downstream task LJP. The implementation is based on [CLAI
     Toggle `use_event_type` variable in the `.config` files to use event or not.
     
 3. Refer to `run_train.sh` for usage details.
+
+## Hint
+
+​	Please read and delete the comments including `space` and `#` in the `.config` file before running `run_train.sh`.

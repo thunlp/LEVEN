@@ -1,9 +1,10 @@
 # LEVEN
-Dataset and source code for ACL 2022 Findings paper ["LEVEN: A Large-Scale Chinese Legal Event Detection Dataset" ](https://arxiv.org/pdf/2203.08556.pdf).
+Dataset and source code for ACL 2022 Findings paper ["LEVEN: A Large-Scale Chinese Legal Event Detection Dataset" ](https://aclanthology.org/2022.findings-acl.17.pdf).
 
 ## Overview
 
-The dataset can be obtained from [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/6e911ff1286d47db8016/) or [Google Drive](https://drive.google.com/drive/folders/1VGD0h365kegTqGEyLr24SJtJUUoZIt20?usp=sharing). The annotation guidelines are provided in [Annotation Guidelines](./Annotation-Guidelines).
+The dataset can be obtained from [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/6e911ff1286d47db8016/) or [Google Drive](https://drive.google.com/drive/folders/1VGD0h365kegTqGEyLr24SJtJUUoZIt20?usp=sharing). The annotation guidelines are provided in [Annotation Guidelines](./Annotation-Guidelines). 
+You can also check out our [poster](./poster/LEVEN-poster.pdf) at ACL2022 main conference.
 
 ### Large Scale
 
@@ -23,7 +24,8 @@ The LEVEN event schema has a sophisticated hierarchical structure, which is show
 
 ## Leader Board
 
-To get the test results, you can submit your predictions to our CodaLab competition (link is coming soon). 
+LEVEN is going to appear at CAIL 2022. To get the test results, you can submit your predictions to [CAIL](http://cail.cipsc.org.cn/) (the specific submission entry is coming soon).
+
 
 ## Experiments
 
@@ -62,3 +64,14 @@ The detailed explanation and annotation guidelines are provided in [Annotation G
 ## Citation
 
 If these data and codes help you, please cite this paper.
+```bib
+@inproceedings{yao-etal-2022-leven,
+    title = "{LEVEN}: A Large-Scale {C}hinese Legal Event Detection Dataset",
+    author = "Yao, Feng and Xiao, Chaojun and Wang, Xiaozhi and Liu, Zhiyuan and Hou, Lei and Tu, Cunchao and Li, Juanzi and Liu, Yun and Shen, Weixing and Sun, Maosong",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2022",
+    year = "2022",
+    url = "https://aclanthology.org/2022.findings-acl.17",
+    doi = "10.18653/v1/2022.findings-acl.17",
+    pages = "183--201",
+}
+```

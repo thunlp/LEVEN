@@ -1,6 +1,12 @@
 # LEVEN
 Dataset and source code for ACL 2022 Findings paper ["LEVEN: A Large-Scale Chinese Legal Event Detection Dataset" ](https://aclanthology.org/2022.findings-acl.17.pdf).
 
+## Background
+Events are the essence of the facts in legal cases. Therefore, Legal Event Detection (LED) is fundamentally important and naturally beneficial to case understanding and other Legal AI tasks.
+
+![bg](./pic/bg.jpg)
+
+
 ## Overview
 
 The dataset can be obtained from [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/6e911ff1286d47db8016/) or [Google Drive](https://drive.google.com/drive/folders/1VGD0h365kegTqGEyLr24SJtJUUoZIt20?usp=sharing). The annotation guidelines are provided in [Annotation Guidelines](./Annotation-Guidelines). 

@@ -12,6 +12,9 @@ Events are the essence of the facts in legal cases. Therefore, Legal Event Detec
 The dataset can be obtained from [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/6e911ff1286d47db8016/) or [Google Drive](https://drive.google.com/drive/folders/1VGD0h365kegTqGEyLr24SJtJUUoZIt20?usp=sharing). The annotation guidelines are provided in [Annotation Guidelines](./Annotation-Guidelines). 
 You can also check out our [poster](./poster/LEVEN-poster.pdf) at ACL2022 main conference.
 
+We remove the annotations for the test set deliberately. To get the results on LEVEN test set, please refer to [Leaderboard](#Leaderboard).
+
+
 ### Large Scale
 
 LEVEN is the largest Legal Event Detection dataset and the largest Chinese Event Detection dataset. Here is a comparison between the scale of LEVEN and other datasets. 
@@ -28,18 +31,22 @@ LEVEN contains 108 event types in total, including 64 charge-oriented events and
 
 The LEVEN event schema has a sophisticated hierarchical structure, which is shown [here](#Schema).  
 
-## Leader Board
+## Leaderboard
 
-LEVEN is going to appear at CAIL 2022. To get the test results, you can submit your predictions to [CAIL](http://cail.cipsc.org.cn/) (the specific submission entry is coming soon).
+LEVEN is adopted for [CAIL 2022](http://cail.cipsc.org.cn/index.html), the most influential Legal AI contest in China. 
+
+You can submit your predictions to [CAIL Event Detection Track](http://cail.cipsc.org.cn/task1.html?raceID=1&cail_tag=2022) to win a prize up to CNY 15,000!
+
+Please follow submission instructions [here](https://github.com/china-ai-law-challenge/CAIL2022/tree/main/sjjc#%E6%8F%90%E4%BA%A4%E7%9A%84%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E5%8F%8A%E7%BB%84%E7%BB%87%E5%BD%A2%E5%BC%8F).
 
 
 ## Experiments
 
 The source codes for the experiments are included in the [Baselines](./Baselines) and [Downstreams](./Downstreams) folder.
 
-​	The Baselines folder includes [DMCNN](./Baselines/DMCNN), [BiLSTM](./Baselines/BiLSTM), [BiLSTM+CRF](./Baselines/BiLSTM+CRF), [BERT](./Baselines/BERT), [BERT+CRF](./Baselines/BERT+CRF) and [DMBERT](./Baselines/DMBERT).
+* The Baselines folder includes [DMCNN](./Baselines/DMCNN), [BiLSTM](./Baselines/BiLSTM), [BiLSTM+CRF](./Baselines/BiLSTM+CRF), [BERT](./Baselines/BERT), [BERT+CRF](./Baselines/BERT+CRF) and [DMBERT](./Baselines/DMBERT).
 
-​	The Downstreams folder includes [Legal Judgment Prediction](./Downstreams/LJP) and [Similar Case Retrieval](./Downstreams/SCR).
+* The Downstreams folder includes [Legal Judgment Prediction](./Downstreams/LJP) and [Similar Case Retrieval](./Downstreams/SCR).
 
 ### Baselines
 

@@ -44,7 +44,7 @@ def run_one_epoch(parameters, config, device, epoch, mode):
     if mode == "train":
         model.train()
         optimizer = parameters["optimizer"]
-    elif mode == "valid" or mode == "test" or mode == 'test_local':
+    elif mode == "valid" or mode == "test":
         model.eval()
     else:
         raise NotImplementedError
@@ -118,17 +118,9 @@ def run_one_epoch(parameters, config, device, epoch, mode):
 
     if mode != "test":
         metric = evaluation.get_metric("all")
-        if mode != 'test_local':
-            del metric['report']
+        del metric['report']
         sys.stdout.write("\r")
-
-        if mode == 'test_local':
-            info = metric['report']
-            del metric['report']
-            print("\r{}: Epoch {} | Metric: {}".format(mode, epoch, metric))
-            metric['report'] = info
-        else:
-            print("\r{}: Epoch {} | Metric: {}".format(mode, epoch, metric))
+        print("\r{}: Epoch {} | Metric: {}".format(mode, epoch, metric))
 
         return metric
     else:

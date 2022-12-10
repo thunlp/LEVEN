@@ -16,7 +16,7 @@ class LevenReader(object):
         self.flag_dir = "{}{}".format(config.get("data", "reader_name")[:-6], "crf" if config.has_option("data", "BIO") else "")
         self.word2vec_source_file = config.get("data", "word2vec_file")
         self.word2vec_file = "word2vec.npy"
-        self.modes = ["train", "valid", "test", "test_local"]
+        self.modes = ["train", "valid", "test"]
 
     def read(self, mode):
         """
@@ -98,7 +98,6 @@ class LevenReader(object):
         processed_data = {"info_train": [],
                           "info_valid": [],
                           "info_test": [],
-                          "info_test_local": [],
                           "word2id": {},
                           "id2word": {},
                           "label2id": {},

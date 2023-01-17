@@ -25,7 +25,7 @@ This code is the data preprocessing for LEVEN downstream application LJP (Legal 
    the `./input_data` folder.
    
 2. Download the checkpoint from [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/2cb9d439a7a547e0a21a/) or [Google Drive](https://drive.google.com/drive/folders/1bkd08NIGHd1ZG_lioSP3z6-0RBLo6vsY?usp=sharing) and put the folder to `./saved`.
-3. Run `python predict.py` and the processed data will be generated in `./output_data/small` folder.
+3. Run `python process.py` and the processed data will be generated in `./output_data/small` folder.
    (We used the `CAIL2018-small` in our paper)
    
 4. The data we used for the low-resource LJP can be obtained from [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/6e2342a1d8754c569b64/) 

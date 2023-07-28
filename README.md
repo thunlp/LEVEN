@@ -9,7 +9,7 @@ Events are the essence of the facts in legal cases. Therefore, Legal Event Detec
 
 ## Overview
 
-The dataset can be obtained from [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/6e911ff1286d47db8016/) or [Google Drive](https://drive.google.com/drive/folders/1VGD0h365kegTqGEyLr24SJtJUUoZIt20?usp=sharing). The annotation guidelines are provided in [Annotation Guidelines](./Annotation-Guidelines). 
+The dataset can be obtained from [Tsinghua Cloud](https://thunlp.oss-cn-qingdao.aliyuncs.com/LEVEN/LEVEN.zip) or [Google Drive](https://drive.google.com/drive/folders/1VGD0h365kegTqGEyLr24SJtJUUoZIt20?usp=sharing). The annotation guidelines are provided in [Annotation Guidelines](./Annotation-Guidelines). 
 You can also check out our [poster](./poster/LEVEN-poster.pdf) at ACL2022 main conference.
 
 We remove the annotations for the test set deliberately. To get the results on LEVEN test set, please refer to [Leaderboard](#Leaderboard).

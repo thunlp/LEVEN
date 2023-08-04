@@ -23,16 +23,13 @@ This code is the data preprocessing for LEVEN downstream application SCR (Simila
 1. Download and put the original [LeCaRD](https://github.com/myx666/LeCaRD/tree/main/data) dataset 
    files in the `./input_data` folder. (Only `candidates`, `label` , `prediction` and `query` folders are necessary.)
    
-2. Download the checkpoint from [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/2cb9d439a7a547e0a21a/) or
-   [Google Drive](https://drive.google.com/drive/folders/1bkd08NIGHd1ZG_lioSP3z6-0RBLo6vsY?usp=sharing) and put the folder to `./saved`.
+2. Download the checkpoint from [Google Drive](https://drive.google.com/drive/folders/1bkd08NIGHd1ZG_lioSP3z6-0RBLo6vsY?usp=sharing) and put the folder to `./saved`.
    
 3. Process data for both supervised and unsupervised settings.
     - run `python process4supervised.py`, it takes around 10 minutes on a GPU-machine.
     - run `python process4unsupervised.py`, it takes around 50 minutes on a GPU-machine.
     
-4. For the supervised experiment, we adopt 5-fold validation. The data can be obtained from 
-   [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/28ded9c140324aa4a420/) or 
-   [Google Drive](https://cloud.tsinghua.edu.cn/d/28ded9c140324aa4a420/). Download the data and put it into `./output_data-supervised/` folder.
+4. For the supervised experiment, we adopt 5-fold validation. The data can be obtained from [Google Drive](https://drive.google.com/drive/folders/1yQZZ6Vs8kjFiWjwZCYmwGK8zghUdGYsJ?usp=sharing). Download the data and put it into `./output_data-supervised/` folder.
    
     It should be like `./output_data-supervised/query/query_5fold`.
 
